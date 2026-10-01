@@ -4,9 +4,11 @@ public:
         vector<int> res; 
         int sum=0;
         for(int i=0;i<nums.size();i++){
-            sum=sum+nums[i];
-            res.push_back(sum);
+             sum+=nums[i];
+             res.push_back(sum);
+             
         }
         return res;
+         
     }
 };
